@@ -17,9 +17,9 @@ public class Locations {
         HSV_DALLAS_WATER_TOWER      (new Location2D("Huntsville Dallas/Lincoln Mill Water Tower",
                                     34, 44, 44.36, Cardinal.NORTH,
                                     86, 34, 51.99, Cardinal.WEST)),
-	    HSV_LOWE_MILL_SMOKESTACK    (new Location2D("Huntsville Lowe Mill Smokestack",
-						            34, 42, 53.60, Cardinal.NORTH,
-						            86, 35, 51.43, Cardinal.WEST)),
+        HSV_LOWE_MILL_SMOKESTACK    (new Location2D("Huntsville Lowe Mill Smokestack",
+                                    34, 42, 53.60, Cardinal.NORTH,
+                                    86, 35, 51.43, Cardinal.WEST)),
         HSV_SATURN_V                (new Location2D("Huntsville Saturn V",
                                     34, 42, 39.97, Cardinal.NORTH,
                                     86, 39, 21.29, Cardinal.WEST));
