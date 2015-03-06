@@ -10,12 +10,17 @@ Demo of the helical waypoint patterns in action: http://youtu.be/cBZOrpKxrMQ
 
 To get started with the program 
 1. Clone the project
-2. Open in your IDE and try running helix.Helix.java (sanity check)
+2. Open in your IDE and try running tests.HelixTest.java (sanity check)
 3. Open the helix.enums.Locations.java. Here is where you can add your flying sites. 
    To get your lat/lon positions I recommend using Google Earth. 
-4. Find the main method in helix.Helix.java, and change the location to one of your own.
+4. Find the main method in tests.HelixTest.java, and change the location to one of your own.
 5. Set the parameters of your helix according to your preferences.
-6. Use the appropriate method to generate your desired output (KML or Mission commands)
+6. If you plan to view the output of the generator in Google Earth set the waypoint type
+   to WAYPOINT. It will approximate the circle with 8 points.  
+   If you want to generate Mission command outputs I'd recommend using the SPLINE waypoint type,
+   because it will generate 4 points around the circle, which the Spline alogirthm will transform
+   into a circle.
+7. Use the appropriate method to generate your desired output (KML or Mission commands).
         - To view the Mission planner commands:
             - copy / paste the console output into a new text file
             - open APM Mission Planner and open your text file in the 
